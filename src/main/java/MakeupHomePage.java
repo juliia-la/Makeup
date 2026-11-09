@@ -10,7 +10,8 @@ public class MakeupHomePage {
     private WebDriverWait wait;
 
 
-    private By perfumeryTitle = By.xpath("//*[@id=\"root\"]/header/nav/div/a[1]");
+    private By perfumeryTitle = By.xpath("//a[@href='/ua/categorys/3/']");
+    //new
 
     public MakeupHomePage(WebDriver driver) {
         this.driver = driver;
